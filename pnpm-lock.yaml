@@ -28,7 +28,7 @@ specifiers:
   eslint-config-prettier: 8.5.0
   eslint-plugin-prettier: 4.2.1
   jest: 28.1.3
-  mongoose: 6.4.6
+  mongoose: 6.4.7
   passport: 0.6.0
   passport-jwt: 4.0.0
   passport-local: 1.0.0
@@ -50,14 +50,14 @@ dependencies:
   '@nestjs/core': 9.0.5_kqlsqbigaolinktvzctrbordee
   '@nestjs/jwt': 9.0.0_@nestjs+common@9.0.5
   '@nestjs/mapped-types': 1.1.0_2ugod5dj2hwbwg5i4ceingecfa
-  '@nestjs/mongoose': 9.2.0_skkrit7gp4xjgfzshasa2a3fsm
+  '@nestjs/mongoose': 9.2.0_xnnt7li4n5p5aogzcrbr7il64e
   '@nestjs/passport': 9.0.0_qdtlkii22m5qqe54blp4xseshi
   '@nestjs/platform-express': 9.0.5_yhkp7kxuauoq6imzcegikmb6ju
   '@types/bcrypt': 5.0.0
   bcryptjs: 2.4.3
   class-transformer: 0.5.1
   class-validator: 0.13.2
-  mongoose: 6.4.6
+  mongoose: 6.4.7
   passport: 0.6.0
   passport-jwt: 4.0.0
   passport-local: 1.0.0
@@ -910,7 +910,7 @@ packages:
       reflect-metadata: 0.1.13
     dev: false
 
-  /@nestjs/mongoose/9.2.0_skkrit7gp4xjgfzshasa2a3fsm:
+  /@nestjs/mongoose/9.2.0_xnnt7li4n5p5aogzcrbr7il64e:
     resolution: {integrity: sha512-fC33b8nwR7C3y6hlTyKjiHQVU57SFOd3Dwa6alWj3BOhK5bHt8Ld6qOK2G35/XXPHjtSIk3LIKEqwyK5xGcmBA==}
     peerDependencies:
       '@nestjs/common': ^8.0.0 || ^9.0.0
@@ -921,7 +921,7 @@ packages:
     dependencies:
       '@nestjs/common': 9.0.5_allg6cauirbqzgqcmexy2wdnoq
       '@nestjs/core': 9.0.5_kqlsqbigaolinktvzctrbordee
-      mongoose: 6.4.6
+      mongoose: 6.4.7
       reflect-metadata: 0.1.13
       rxjs: 7.5.6
     dev: false
@@ -3822,8 +3822,8 @@ packages:
       saslprep: 1.0.3
     dev: false
 
-  /mongoose/6.4.6:
-    resolution: {integrity: sha512-ZAfNCWgXhwev6k/+rMzjHIJ/+wLkundQU/i+aUTqmCgGoYqc+B5e4EC4Y3E1XaLzNXiWID1/vocSM6zs5IAGvA==}
+  /mongoose/6.4.7:
+    resolution: {integrity: sha512-NvWxRkhXUt4RXR4kj47c8LApf4EIl2Ewt24ZojQiVbHy4mfqpW7UKUV698p8zIdYQ9EEeEfzDlwd4n7B3NGRnA==}
     engines: {node: '>=12.0.0'}
     dependencies:
       bson: 4.6.5
