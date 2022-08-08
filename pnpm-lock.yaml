@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@nestjs/cli': 9.0.0
   '@nestjs/common': 9.0.8
-  '@nestjs/config': ^2.2.0
+  '@nestjs/config': 2.2.0
   '@nestjs/core': 9.0.8
   '@nestjs/jwt': 9.0.0
   '@nestjs/mapped-types': '*'
