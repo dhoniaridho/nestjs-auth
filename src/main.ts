@@ -12,7 +12,7 @@ async function bootstrap() {
     type: VersioningType.URI,
   });
   app.enableCors({
-    origin: 'http://localhost:3000',
+    origin: [...process.env.ORIGIN.split(',')],
   });
   app.useGlobalInterceptors(new TransformInterceptor());
   app.setGlobalPrefix('v1');
