@@ -1,10 +1,11 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { repl } from '@nestjs/core';
-import { VersioningType } from '@nestjs/common';
+import { ConsoleLogger, VersioningType } from '@nestjs/common';
 import { ValidationPipe } from './validation.pipe';
 import { useContainer } from 'class-validator';
 import { TransformInterceptor } from './transform.interceptor';
+import config from './config/config';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
@@ -18,7 +19,10 @@ async function bootstrap() {
   app.setGlobalPrefix('v1');
   app.useGlobalPipes(new ValidationPipe());
   useContainer(app.select(AppModule), { fallbackOnErrors: true });
+  await app.listen(config().app_port, config().app_host);
+  new ConsoleLogger('NestApplication').log(
+    `Server running on http://${config().app_host}:${config().app_port}`,
+  );
   await repl(AppModule);
-  await app.listen(3000);
 }
 bootstrap();

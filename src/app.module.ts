@@ -6,6 +6,7 @@ import { UsersModule } from './users/users.module';
 import { DatabaseModule } from './database/database.module';
 import { JwtModule } from './jwt/jwt.module';
 import { ConfigModule } from '@nestjs/config';
+import config from './config/config';
 
 @Module({
   imports: [
@@ -15,6 +16,7 @@ import { ConfigModule } from '@nestjs/config';
     JwtModule,
     ConfigModule.forRoot({
       isGlobal: true,
+      load: [config],
     }),
   ],
   controllers: [AppController],
