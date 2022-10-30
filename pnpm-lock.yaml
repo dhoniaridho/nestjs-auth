@@ -44,7 +44,7 @@ specifiers:
   ts-node: 10.9.1
   tsconfig-paths: 4.1.0
   typescript: 4.8.2
-  underscore: 1.13.4
+  underscore: 1.13.6
 
 dependencies:
   '@nestjs/common': 9.0.11_x6yqyveuahcdef4z4mxykmuv6a
@@ -66,7 +66,7 @@ dependencies:
   reflect-metadata: 0.1.13
   rimraf: 3.0.2
   rxjs: 7.5.7
-  underscore: 1.13.4
+  underscore: 1.13.6
 
 devDependencies:
   '@nestjs/cli': 9.1.1
@@ -5104,8 +5104,8 @@ packages:
     hasBin: true
     dev: true
 
-  /underscore/1.13.4:
-    resolution: {integrity: sha512-BQFnUDuAQ4Yf/cYY5LNrK9NCJFKriaRbD9uR1fTeXnBeoa97W0i41qkZfGO9pSo8I5KzjAcSY2XYtdf0oKd7KQ==}
+  /underscore/1.13.6:
+    resolution: {integrity: sha512-+A5Sja4HP1M08MaXya7p5LvjuM7K6q/2EaC0+iovj/wOcMsTzMvDFbasi/oSapiwOlt252IqsKqPjCl7huKS0A==}
     dev: false
 
   /universalify/2.0.0:
